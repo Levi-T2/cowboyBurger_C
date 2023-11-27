@@ -10,6 +10,10 @@ public class Burger
 
     public Burger(int id, string name, string description, int price, bool hasCheese)
     {
-
+        Id = id;
+        Name = name;
+        Description = description;
+        Price = price;
+        HasCheese = hasCheese;
     }
 }
